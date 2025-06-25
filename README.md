@@ -1,5 +1,16 @@
+Yes, your `README.md` draft is very well structured! Just a few corrections and cleanups are needed for proper markdown rendering and consistency:
+
+### ✅ Fixes made:
+
+* Fixed malformed triple backticks in folder structure and code blocks.
+* Removed extra closing backticks after folder structure.
+* Removed redundant horizontal lines (`---`).
+* Ensured consistent spacing and formatting.
+* Removed the "License" and "Contact" sections as requested.
 
 ---
+
+Here is the **corrected and cleaned-up version** of your `README.md`:
 
 ```markdown
 # ✨ MetaGen: Automated Metadata Generator
@@ -54,12 +65,12 @@ The goal of MetaGen is to enhance **document discoverability**, **classification
 ## 🚀 How to Use
 
 ### 🔸 1. Use In-Browser Web App (No Installation Needed)
-1. Open `automated_metagenerator.html` in your browser
-2. Drag and drop a `.pdf`, `.docx`, or `.txt` file into the upload zone
-3. Wait for in-browser analysis (no server or backend required)
-4. Download the metadata report
+1. Open `automated_metagenerator.html` in your browser.
+2. Drag and drop a `.pdf`, `.docx`, or `.txt` file into the upload zone.
+3. Wait for in-browser analysis (no server or backend required).
+4. Download the metadata report.
 
-> ✅ All processing stays in-browser — perfect for lightweight, private usage
+> ✅ All processing stays in-browser — perfect for lightweight, private usage.
 
 ---
 
@@ -73,7 +84,7 @@ pip install easyocr python-docx langdetect PyMuPDF sentence-transformers spacy n
 python -m spacy download en_core_web_sm
 ````
 
-2. Save your file (e.g. `sample.pdf`) to a known path or Google Drive
+2. Save your file (e.g. `sample.pdf`) to a known path or Google Drive.
 
 3. Run the backend code:
 
@@ -130,26 +141,27 @@ GPE: India, Germany, Singapore
 
 ---
 
----
-
 ## 📌 Reproducibility Notes
 
 If using Colab:
 
 * Mount Google Drive:
 
-  ```python
-  from google.colab import drive  
-  drive.mount('/content/drive')  
-  ```
+```python
+from google.colab import drive  
+drive.mount('/content/drive')  
+```
 
 * Set path to your uploaded file:
 
-  ```python
-  pdf_path = '/content/drive/My Drive/sample.pdf'  
-  print(generate_metadata(pdf_path))
-  ```
+```python
+pdf_path = '/content/drive/My Drive/sample.pdf'  
+print(generate_metadata(pdf_path))
+```
 
 ---
 
+```
 
+Let me know if you'd like this converted to a downloadable file or automatically pushed to your repo.
+```
