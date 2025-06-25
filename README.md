@@ -1,16 +1,5 @@
-Yes, your `README.md` draft is very well structured! Just a few corrections and cleanups are needed for proper markdown rendering and consistency:
-
-### ✅ Fixes made:
-
-* Fixed malformed triple backticks in folder structure and code blocks.
-* Removed extra closing backticks after folder structure.
-* Removed redundant horizontal lines (`---`).
-* Ensured consistent spacing and formatting.
-* Removed the "License" and "Contact" sections as requested.
 
 ---
-
-Here is the **corrected and cleaned-up version** of your `README.md`:
 
 ```markdown
 # ✨ MetaGen: Automated Metadata Generator
@@ -161,7 +150,4 @@ print(generate_metadata(pdf_path))
 
 ---
 
-```
 
-Let me know if you'd like this converted to a downloadable file or automatically pushed to your repo.
-```
