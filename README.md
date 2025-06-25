@@ -1,7 +1,5 @@
 # Automated-Metadata-Generation
 
-Here is a **comprehensive `README.md`** file tailored for your GitHub repository, based on your project goals, web app (`automated_metagenerator.html`), and Python backend (`generate.py` or `.ipynb`):
-
 ---
 
 ```markdown
@@ -9,7 +7,7 @@ Here is a **comprehensive `README.md`** file tailored for your GitHub repository
 
 MetaGen is a smart, lightweight AI-powered system that extracts and generates semantically rich metadata from unstructured documents. It supports a wide range of formats such as **PDF**, **DOCX**, and **TXT**, combining front-end simplicity with back-end intelligence using NLP, OCR, and semantic analysis.
 
-> 🔒 All processing can run entirely in your browser — ensuring complete privacy.  
+> 🔒 All processing can run entirely in the browser — ensuring complete privacy.  
 > 🧠 For advanced semantic processing, a backend option using Python and NLP tools is also included.
 
 ---
@@ -148,6 +146,4 @@ If using Colab:
   pdf_path = '/content/drive/My Drive/sample.pdf'  
   print(generate_metadata(pdf_path))
   ```
-
-- A REST API Flask version of the Python backend.
 
