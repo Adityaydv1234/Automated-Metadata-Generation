@@ -1,4 +1,3 @@
-# Automated-Metadata-Generation
 
 ---
 
@@ -7,7 +6,7 @@
 
 MetaGen is a smart, lightweight AI-powered system that extracts and generates semantically rich metadata from unstructured documents. It supports a wide range of formats such as **PDF**, **DOCX**, and **TXT**, combining front-end simplicity with back-end intelligence using NLP, OCR, and semantic analysis.
 
-> 🔒 All processing can run entirely in the browser — ensuring complete privacy.  
+> 🔒 All processing can run entirely in your browser — ensuring complete privacy.  
 > 🧠 For advanced semantic processing, a backend option using Python and NLP tools is also included.
 
 ---
@@ -129,6 +128,10 @@ GPE: India, Germany, Singapore
 | ✅ README File                       | ✔️ This file  |
 | ✅ 2-min Demo Video                  | 📎 Link Above |
 
+---
+
+---
+
 ## 📌 Reproducibility Notes
 
 If using Colab:
@@ -146,4 +149,7 @@ If using Colab:
   pdf_path = '/content/drive/My Drive/sample.pdf'  
   print(generate_metadata(pdf_path))
   ```
+
+---
+
 
